@@ -4,8 +4,8 @@
 
     <div class="wrap-breadcrumb">
         <ul>
-            <li class="item-link"><a href="/" class="link">Home</a></li>
-            <li class="item-link"><span>Product Category</span></li>
+            <li class="item-link"><a href="/" class="link">HOME</a></li>
+            <li class="item-link"><span>PRODUCT CATEGORY</span></li>
             <li class="item-link"><span>{{$category_name}}</span></li>
         </ul>
     </div>

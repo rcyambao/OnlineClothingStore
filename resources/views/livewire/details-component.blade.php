@@ -5,7 +5,7 @@
 			<div class="wrap-breadcrumb">
 				<ul>
 					<li class="item-link"><a href="#" class="link">home</a></li>
-					<li class="item-link"><span>detail</span></li>
+					<li class="item-link"><span>details</span></li>
 				</ul>
 			</div>
 			<div class="row">
@@ -36,10 +36,10 @@
                             <div class="short-desc">
                                 {{$product->short_description}}
                             </div>
-                            <div class="wrap-social">
+                            <!-- <div class="wrap-social">
                             	<a class="link-socail" href="#"><img src="{{asset('assets/images/social-list.png')}}" alt=""></a>
-                            </div>
-                            <div class="wrap-price"><span class="product-price">Php{{$product->regular_price}}</span></div>
+                            </div> -->
+                            <div class="wrap-price"><span class="product-price">PHP {{$product->regular_price}}</span></div>
                             <div class="stock-info in-stock">
                                 <p class="availability">Availability: <b>{{$product->stock_status}}</b></p>
                             </div>
@@ -54,17 +54,17 @@
 							</div>
 							<div class="wrap-butons">
 								<a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}}, '{{$product->name}}', {{$product->regular_price}})">Add to Cart</a>
-                                <div class="wrap-btn">
+                                <!-- <div class="wrap-btn">
                                     <a href="#" class="btn btn-compare">Add Compare</a>
                                     <a href="#" class="btn btn-wishlist">Add Wishlist</a>
-                                </div>
+                                </div> -->
 							</div>
 						</div>
 						<div class="advance-info">
 							<div class="tab-control normal">
-								<a href="#description" class="tab-control-item active">description</a>
-								<a href="#add_infomation" class="tab-control-item">Addtional Infomation</a>
-								<a href="#review" class="tab-control-item">Reviews</a>
+								<a href="#description" class="tab-control-item active">Description</a>
+								<a href="#add_infomation" class="tab-control-item">Additional Infomation</a>
+								<!-- <a href="#review" class="tab-control-item">Reviews</a> -->
 							</div>
 							<div class="tab-contents">
 								<div class="tab-content-item active" id="description">
@@ -119,10 +119,10 @@
 
 													<form action="#" method="post" id="commentform" class="comment-form" novalidate="">
 														<p class="comment-notes">
-															<span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+															<span id="email-notes">Your email address will not be published.</span> Required fields are marked. <span class="required">*</span>
 														</p>
 														<div class="comment-form-rating">
-															<span>Your rating</span>
+															<span>Rate</span>
 															<p class="stars">
 																
 																<label for="rated-1"></label>
@@ -142,11 +142,11 @@
 															<input id="author" name="author" type="text" value="">
 														</p>
 														<p class="comment-form-email">
-															<label for="email">Email <span class="required">*</span></label> 
+															<label for="email">E-mail <span class="required">*</span></label> 
 															<input id="email" name="email" type="email" value="" >
 														</p>
 														<p class="comment-form-comment">
-															<label for="comment">Your review <span class="required">*</span>
+															<label for="comment">Your Review <span class="required">*</span>
 															</label>
 															<textarea id="comment" name="comment" cols="45" rows="8"></textarea>
 														</p>
@@ -176,7 +176,7 @@
 										<i class="fa fa-truck" aria-hidden="true"></i>
 										<div class="right-content">
 											<b class="title">Free Shipping</b>
-											<span class="subtitle">On Oder Over $99</span>
+											<span class="subtitle">NATIONWIDE</span>
 											<p class="desc">Lorem Ipsum is simply dummy text of the printing...</p>
 										</div>
 									</a>

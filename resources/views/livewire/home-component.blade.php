@@ -7,9 +7,9 @@
 					<div class="item-slide">
 						<img src="{{asset('assets/images/main-slider-1-1.jpg')}}" alt="" class="img-slide">
 						<div class="slide-info slide-1">
-							<h2 class="f-title">Kid Smart <b>Watches</b></h2>
+							<h2 class="f-title">DRESS LIKE A QUEEN.<br><br><b>DRESS LIKE A MANNEQUIN.</b></h2>
 							<span class="subtitle">Compra todos tus productos Smart por internet.</span>
-							<p class="sale-info">Only price: <span class="price">$59.99</span></p>
+							<!-- <p class="sale-info">Only price: <span class="price">$59.99</span></p> -->
 							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
@@ -207,7 +207,7 @@
 				<h3 class="title-box">Latest Products</h3>
 				<div class="wrap-top-banner">
 					<a href="#" class="link-banner banner-effect-2">
-						<figure><img src="{{asset('assets/images/digital-electronic-banner.jpg')}}" width="1170" height="240')}}" alt=""></figure>
+						<figure><img src="{{asset('assets/images/banner_1.jpg')}}" width="1170" height="240')}}" alt=""></figure>
 					</a>
 				</div>
 				<div class="wrap-products">
@@ -370,16 +370,16 @@
 				<h3 class="title-box">Product Categories</h3>
 				<div class="wrap-top-banner">
 					<a href="#" class="link-banner banner-effect-2">
-						<figure><img src="{{asset('assets/images/fashion-accesories-banner.jpg')}}" width="1170" height="240')}}" alt=""></figure>
+						<figure><img src="{{asset('assets/images/banner_4.jpg')}}" width="1170" height="240')}}" alt=""></figure>
 					</a>
 				</div>
 				<div class="wrap-products">
 					<div class="wrap-product-tab tab-style-1">
 						<div class="tab-control">
-							<a href="#fashion_1a" class="tab-control-item active">Smartphone</a>
-							<a href="#fashion_1b" class="tab-control-item">Watch</a>
-							<a href="#fashion_1c" class="tab-control-item">Laptop</a>
-							<a href="#fashion_1d" class="tab-control-item">Tablet</a>
+							<a href="#fashion_1a" class="tab-control-item active"> CROP TOPS</a>
+							<a href="#fashion_1b" class="tab-control-item"> TEES </a>
+							<a href="#fashion_1c" class="tab-control-item"> LONG SLEEVES </a>
+							<a href="#fashion_1d" class="tab-control-item"> SWIMSUIT </a>
 						</div>
 						<div class="tab-contents">
 

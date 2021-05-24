@@ -59,43 +59,43 @@
 				<div class="summary summary-checkout">
 					<div class="summary-item payment-method">
 						<h4 class="title-box">Payment Method</h4>
-						<p class="summary-info"><span class="title">Check / Money order</span></p>
-						<p class="summary-info"><span class="title">Credit Cart (saved)</span></p>
+						<p class="summary-info"><span class="title">Choose payment method from</span></p>
+						<p class="summary-info"><span class="title">the choices below.</span></p>
 						<div class="choose-payment-methods">
 							<label class="payment-method">
 								<input name="payment-method" id="payment-method-bank" value="bank" type="radio">
-								<span>Direct Bank Transder</span>
+								<span>Cash On Delivery</span>
 								<span class="payment-desc">But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</span>
 							</label>
 							<label class="payment-method">
 								<input name="payment-method" id="payment-method-visa" value="visa" type="radio">
-								<span>visa</span>
+								<span>Credit Card</span>
 								<span class="payment-desc">There are many variations of passages of Lorem Ipsum available</span>
 							</label>
 							<label class="payment-method">
 								<input name="payment-method" id="payment-method-paypal" value="paypal" type="radio">
-								<span>Paypal</span>
+								<span>Online Payment</span>
 								<span class="payment-desc">You can pay with your credit</span>
 								<span class="payment-desc">card if you don't have a paypal account</span>
 							</label>
 						</div>
-						<p class="summary-info grand-total"><span>Grand Total</span> <span class="grand-total-price">$100.00</span></p>
-						<a href="thankyou.html" class="btn btn-medium">Place order now</a>
+						<p class="summary-info grand-total"><span>Grand Total: </span> <span class="grand-total-price"> </span></p>
+						<a href="thankyou.html" class="btn btn-medium">PLACE ORDER NOW</a>
 					</div>
 					<div class="summary-item shipping-method">
-						<h4 class="title-box f-title">Shipping method</h4>
-						<p class="summary-info"><span class="title">Flat Rate</span></p>
-						<p class="summary-info"><span class="title">Fixed $50.00</span></p>
-						<h4 class="title-box">Discount Codes</h4>
+						<h4 class="title-box f-title">Shipping Details</h4>
+						<p class="summary-info"><span class="title">Courier/Delivery Partner:</span></p>
+						<p class="summary-info"><span class="title">GETDRESS Rider</span></p>
+						<!-- <h4 class="title-box">Discount Codes</h4>
 						<p class="row-in-form">
 							<label for="coupon-code">Enter Your Coupon code:</label>
 							<input id="coupon-code" type="text" name="coupon-code" value="" placeholder="">	
 						</p>
-						<a href="#" class="btn btn-small">Apply</a>
+						<a href="#" class="btn btn-small">Apply</a> -->
 					</div>
 				</div>
 
-				<div class="wrap-show-advance-info-box style-1 box-in-site">
+				<!-- <div class="wrap-show-advance-info-box style-1 box-in-site">
 					<h3 class="title-box">Most Viewed Products</h3>
 					<div class="wrap-products">
 						<div class="products slide-carousel owl-carousel style-nav-1 equal-container" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"5"}}' >
@@ -243,7 +243,7 @@
 							</div>
 						</div>
 					</div><!--End wrap-products-->
-				</div>
+				</div> --> <!--END OF WRAP -->
 
 			</div><!--end main content area-->
 		</div><!--end container-->
