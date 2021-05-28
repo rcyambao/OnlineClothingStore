@@ -1,3 +1,5 @@
+
+
 <div>
     <style>
         nav svg{
@@ -12,7 +14,14 @@
             <div class="com-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <b>All Products</b> 
+                        <div class="row">
+                            <div class="col-md-6">
+                                ALL PRODUCTS
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{{route('admin.addproduct')}}" class="btn btn-success pull-right"> ADD NEW PRODUCT </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="panel-body">
                         <table class="table table-striped">
