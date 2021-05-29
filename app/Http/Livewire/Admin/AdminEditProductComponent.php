@@ -6,11 +6,14 @@ use App\Models\Product;
 use Livewire\Component;
 use Illuminate\Support\Str;
 use Carbon\Carbon;
-use WithFileUploads;
+use Livewire\WithFileUploads;
 use App\Models\Category;
 
 class AdminEditProductComponent extends Component
 {
+
+    use WithFileUploads;
+    
     public $name;
     public $slug;
     public $short_description;
@@ -64,12 +67,13 @@ class AdminEditProductComponent extends Component
         $product->stock_status = $this->stock_status;
         $product->featured = $this->featured;
         $product->quantity = $this->quantity;
+
         if($this->newimage)
         {
-            $imageName = Carbon::now()->timestamp. '.' . $this->image->extension();
+            $imageName = Carbon::now()->timestamp. '.' .$this->newimage->extension();
             $this->newimage->storeAs('products',$imageName);
             $product->image = $imageName;
-        }
+        } 
         $product->category_id = $this->category_id;
         $product->save();
         session()->flash('message', 'PRODUCT HAS BEEN UPDATED SUCCESSFULLY!');
