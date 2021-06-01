@@ -88,21 +88,21 @@
 								</div>
 							</div>
 
-							<div class="form-group">
-								<label class="col-md-4 control-label">Featured</label>
+							<div class="form-group" style="display:none">
+								<label class="col-md-4 control-label" style="display:none">Featured</label>
 								<div class="col-md-4">
-									<select class="form-control" wire:model="featured">
+									<select class="form-control" wire:model="featured" style="display:none">
 										<option value="0">No</option>
 										<option value="1">Yes</option>
 									</select>
 								</div>
 							</div>
 
-							<div class="form-group">
-								<label class="col-md-4 control-label">Quantity</label>
+							<div class="form-group" style="display:none">
+								<label class="col-md-4 control-label" style="display:none">Quantity</label>
 								<div class="col-md-4">
-									<input type="text" placeholder="Quantity" class="form-control input-md" wire:model="quantity" />
-									@error('quantity') <p class="text-danger">{{$message}}</p> @enderror
+									<input type="text" placeholder="Quantity" style="display:none" class="form-control input-md" value="100" wire:model="quantity" />
+									<!-- @error('quantity') <p class="text-danger">{{$message}}</p> @enderror -->
 								</div>
 							</div>
 

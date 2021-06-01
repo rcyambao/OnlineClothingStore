@@ -29,6 +29,7 @@ class AdminAddProductComponent extends Component
 	public function mount()
 	{
 		$this->stock_status = 'instock';
+		$this->quantity = '100';
 		$this->featured = 0;
 	}
 
