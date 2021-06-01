@@ -14,10 +14,11 @@
 -   <p>User can add product to product Cart.</p>
 -   <p>User can remove product from product Cart.</p>
 -   <p>User can checkout with cash on delivery.</p>
-    <p>Admin can update order status</p>
+-   <p>User can view order details</p>
+-   <p>Admin can update order status</p>
 
 
     <p>revisions</p>
-    <p>email notification after checkout</p>
+-   <p>email notification after checkout</p>
 -   <p>reduced product quantity after order</p>
 -   
